@@ -1,1 +1,9 @@
-
+def cal():
+  a=int(input("Enter the first number:"))
+  b=int(input("Enter the second number:"))
+  o=int(input("Enter an arithmetic operation of your choice 1.Addition 2.Subtraction 3.Multiplication 4.Division"))
+print("The difference of the two numbers is",a+b)
+print("The difference of the two numbers is",a-b)
+print("The  product of two numbers is",a*b)
+print("The quotient is",a/b)
+cal()  
